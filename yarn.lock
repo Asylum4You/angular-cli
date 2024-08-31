@@ -6,12 +6,12 @@ __metadata:
   cacheKey: 10c0
 
 "@75lb/deep-merge@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@75lb/deep-merge@npm:1.1.1"
+  version: 1.1.2
+  resolution: "@75lb/deep-merge@npm:1.1.2"
   dependencies:
-    lodash.assignwith: "npm:^4.2.0"
+    lodash: "npm:^4.17.21"
     typical: "npm:^7.1.1"
-  checksum: 10c0/cbff3cc6410e91e268452f147fc40be660c3accb0a9cd066bff0729d52047fb7a74816a7bd02544bfa16ae0fef5ae8c92f66fa3f6db5f6785da2730617600614
+  checksum: 10c0/6183be2879b31b5bbcf1d234cee212db7345fda09a8d77f69045702e5923ea34dd06542362fff7348f27aa1be7c3222c8b51bb06ba65b0579a43585a85e65888
   languageName: node
   linkType: hard
 
@@ -119,7 +119,7 @@ __metadata:
     rxjs: "npm:7.8.1"
     sass: "npm:1.77.8"
     sass-loader: "npm:14.2.1"
-    semver: "npm:7.6.2"
+    semver: "npm:7.6.3"
     source-map-loader: "npm:5.0.0"
     source-map-support: "npm:0.5.21"
     terser: "npm:5.31.2"
@@ -128,7 +128,7 @@ __metadata:
     undici: "npm:6.19.2"
     vite: "npm:5.3.3"
     watchpack: "npm:2.4.1"
-    webpack: "npm:5.93.0"
+    webpack: "npm:5.94.0"
     webpack-dev-middleware: "npm:7.2.1"
     webpack-dev-server: "npm:5.0.4"
     webpack-merge: "npm:6.0.1"
@@ -183,7 +183,7 @@ __metadata:
     "@angular-devkit/architect": "npm:0.0.0-EXPERIMENTAL-PLACEHOLDER"
     "@angular-devkit/core": "npm:0.0.0-PLACEHOLDER"
     rxjs: "npm:7.8.1"
-    webpack: "npm:5.93.0"
+    webpack: "npm:5.94.0"
   peerDependencies:
     webpack: ^5.30.0
     webpack-dev-server: ^5.0.2
@@ -416,7 +416,7 @@ __metadata:
     piscina: "npm:4.6.1"
     rollup: "npm:4.18.1"
     sass: "npm:1.77.8"
-    semver: "npm:7.6.2"
+    semver: "npm:7.6.3"
     vite: "npm:5.3.3"
     watchpack: "npm:2.4.1"
   peerDependencies:
@@ -540,7 +540,7 @@ __metadata:
     npm-pick-manifest: "npm:9.1.0"
     pacote: "npm:18.0.6"
     resolve: "npm:1.22.8"
-    semver: "npm:7.6.2"
+    semver: "npm:7.6.3"
     symbol-observable: "npm:4.0.0"
     yargs: "npm:17.7.2"
   bin:
@@ -769,7 +769,7 @@ __metadata:
     rxjs: "npm:7.8.1"
     sass: "npm:1.77.8"
     sass-loader: "npm:14.2.1"
-    semver: "npm:7.6.2"
+    semver: "npm:7.6.3"
     shelljs: "npm:^0.8.5"
     source-map: "npm:0.7.4"
     source-map-loader: "npm:5.0.0"
@@ -786,7 +786,7 @@ __metadata:
     verdaccio-auth-memory: "npm:^10.0.0"
     vite: "npm:5.3.3"
     watchpack: "npm:2.4.1"
-    webpack: "npm:5.93.0"
+    webpack: "npm:5.94.0"
     webpack-dev-middleware: "npm:7.2.1"
     webpack-dev-server: "npm:5.0.4"
     webpack-merge: "npm:6.0.1"
@@ -4440,7 +4440,7 @@ __metadata:
     "@angular/compiler": "npm:18.2.0-next.0"
     "@angular/compiler-cli": "npm:18.2.0-next.0"
     typescript: "npm:5.5.3"
-    webpack: "npm:5.93.0"
+    webpack: "npm:5.94.0"
   peerDependencies:
     "@angular/compiler-cli": ^18.0.0 || ^18.2.0-next.0
     typescript: ">=5.4 <5.6"
@@ -5608,26 +5608,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-scope@npm:^3.7.3":
-  version: 3.7.7
-  resolution: "@types/eslint-scope@npm:3.7.7"
-  dependencies:
-    "@types/eslint": "npm:*"
-    "@types/estree": "npm:*"
-  checksum: 10c0/a0ecbdf2f03912679440550817ff77ef39a30fa8bfdacaf6372b88b1f931828aec392f52283240f0d648cf3055c5ddc564544a626bcf245f3d09fcb099ebe3cc
-  languageName: node
-  linkType: hard
-
-"@types/eslint@npm:*":
-  version: 8.56.10
-  resolution: "@types/eslint@npm:8.56.10"
-  dependencies:
-    "@types/estree": "npm:*"
-    "@types/json-schema": "npm:*"
-  checksum: 10c0/674349d6c342c3864d70f4d5a9965f96fb253801532752c8c500ad6a1c2e8b219e01ccff5dc8791dcb58b5483012c495708bb9f3ff929f5c9322b3da126c15d3
-  languageName: node
-  linkType: hard
-
 "@types/estree@npm:*, @types/estree@npm:1.0.5, @types/estree@npm:^1.0.0, @types/estree@npm:^1.0.5":
   version: 1.0.5
   resolution: "@types/estree@npm:1.0.5"
@@ -5754,7 +5734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.8, @types/json-schema@npm:^7.0.9":
+"@types/json-schema@npm:^7.0.8, @types/json-schema@npm:^7.0.9":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 10c0/a996a745e6c5d60292f36731dd41341339d4eeed8180bb09226e5c8d23759067692b1d88e5d91d72ee83dfc00d3aca8e7bd43ea120516c17922cbcb7c3e252db
@@ -9604,13 +9584,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.17.0":
-  version: 5.17.0
-  resolution: "enhanced-resolve@npm:5.17.0"
+"enhanced-resolve@npm:^5.17.1":
+  version: 5.17.1
+  resolution: "enhanced-resolve@npm:5.17.1"
   dependencies:
     graceful-fs: "npm:^4.2.4"
     tapable: "npm:^2.2.0"
-  checksum: 10c0/90065e58e4fd08e77ba47f827eaa17d60c335e01e4859f6e644bb3b8d0e32b203d33894aee92adfa5121fa262f912b48bdf0d0475e98b4a0a1132eea1169ad37
+  checksum: 10c0/81a0515675eca17efdba2cf5bad87abc91a528fc1191aad50e275e74f045b41506167d420099022da7181c8d787170ea41e4a11a0b10b7a16f6237daecb15370
   languageName: node
   linkType: hard
 
@@ -13306,13 +13286,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.assignwith@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "lodash.assignwith@npm:4.2.0"
-  checksum: 10c0/069b0ce72d05ee19ec848ac1dddf612ab956960a347d7b4da07c4880debaea391896fd35cd731690eef70ea2ed165d983387af75bb0b15fbeba293eb15d39464
-  languageName: node
-  linkType: hard
-
 "lodash.camelcase@npm:^4.3.0":
   version: 4.3.0
   resolution: "lodash.camelcase@npm:4.3.0"
@@ -16658,6 +16631,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:7.6.3":
+  version: 7.6.3
+  resolution: "semver@npm:7.6.3"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/88f33e148b210c153873cb08cfe1e281d518aaa9a666d4d148add6560db5cd3c582f3a08ccb91f38d5f379ead256da9931234ed122057f40bb5766e65e58adaf
+  languageName: node
+  linkType: hard
+
 "semver@npm:^5.3.0, semver@npm:^5.6.0":
   version: 5.7.2
   resolution: "semver@npm:5.7.2"
@@ -18927,11 +18909,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.93.0":
-  version: 5.93.0
-  resolution: "webpack@npm:5.93.0"
+"webpack@npm:5.94.0":
+  version: 5.94.0
+  resolution: "webpack@npm:5.94.0"
   dependencies:
-    "@types/eslint-scope": "npm:^3.7.3"
     "@types/estree": "npm:^1.0.5"
     "@webassemblyjs/ast": "npm:^1.12.1"
     "@webassemblyjs/wasm-edit": "npm:^1.12.1"
@@ -18940,7 +18921,7 @@ __metadata:
     acorn-import-attributes: "npm:^1.9.5"
     browserslist: "npm:^4.21.10"
     chrome-trace-event: "npm:^1.0.2"
-    enhanced-resolve: "npm:^5.17.0"
+    enhanced-resolve: "npm:^5.17.1"
     es-module-lexer: "npm:^1.2.1"
     eslint-scope: "npm:5.1.1"
     events: "npm:^3.2.0"
@@ -18960,7 +18941,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 10c0/f0c72f1325ff57a4cc461bb978e6e1296f2a7d45c9765965271aa686ccdd448512956f4d7fdcf8c164d073af046c5a0aba17ce85ea98e33e5e2bfbfe13aa5808
+  checksum: 10c0/b4d1b751f634079bd177a89eef84d80fa5bb8d6fc15d72ab40fc2b9ca5167a79b56585e1a849e9e27e259803ee5c4365cb719e54af70a43c06358ec268ff4ebf
   languageName: node
   linkType: hard
 
