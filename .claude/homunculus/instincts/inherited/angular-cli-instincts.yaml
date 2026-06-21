@@ -1,0 +1,338 @@
+# Instincts generated from https://github.com/Asylum4You/angular-cli
+# Generated: 2026-04-16T23:26:11.838Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: angular-cli-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/Asylum4You/angular-cli
+---
+
+# Angular Cli Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: build
+
+## Evidence
+
+- 1 commits analyzed
+- Detected conventional commit pattern
+- Examples: build(deps): bump the npm_and_yarn group across 3 directories with 3 updates
+
+---
+id: angular-cli-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/Asylum4You/angular-cli
+---
+
+# Angular Cli Commit Length
+
+## Action
+
+Write moderate-length commit messages (~76 characters)
+
+## Evidence
+
+- Average commit message length: 76 chars
+- Based on 1 commits
+
+---
+id: angular-cli-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Asylum4You/angular-cli
+---
+
+# Angular Cli Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: angular-cli-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Asylum4You/angular-cli
+---
+
+# Angular Cli Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: angular-cli-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Asylum4You/angular-cli
+---
+
+# Angular Cli Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: angular-cli-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/Asylum4You/angular-cli
+---
+
+# Angular Cli Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: angular-cli-instinct-file-naming
+trigger: "When creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct File Naming
+
+## Action
+
+Name the file using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.files: camelCase
+
+---
+id: angular-cli-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Function Naming
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.functions: camelCase
+
+---
+id: angular-cli-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.classes: PascalCase
+
+---
+id: angular-cli-instinct-constant-naming
+trigger: "When declaring a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Pattern in namingConventions.constants: SCREAMING_SNAKE_CASE
+
+---
+id: angular-cli-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle: relative
+
+---
+id: angular-cli-instinct-export-style
+trigger: "When exporting code elements"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle: named
+
+---
+id: angular-cli-instinct-git-commit-prefix-build
+trigger: "When committing dependency updates or build changes"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Git Commit Prefix Build
+
+## Action
+
+Prefix the commit message with 'build'
+
+## Evidence
+
+- Seen in commit: build(deps): bump the npm_and_yarn group across 3 directories with 3 updates
+- Pattern in commits.prefixes: build
+
+---
+id: angular-cli-instinct-git-commit-format
+trigger: "When writing a commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Git Commit Format
+
+## Action
+
+Follow the Conventional Commits format: <type>(<scope>): <description>
+
+## Evidence
+
+- Pattern in commits.type: conventional
+- Seen in commit: build(deps): bump the npm_and_yarn group across 3 directories with 3 updates
+
+---
+id: angular-cli-instinct-git-commit-length
+trigger: "When writing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Git Commit Length
+
+## Action
+
+Keep the commit message around 76 characters on average
+
+## Evidence
+
+- Pattern in commits.averageLength: 76
+
+---
+id: angular-cli-instinct-monorepo-structure
+trigger: "When adding a new package or module"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Monorepo Structure
+
+## Action
+
+Place it in the 'packages' folder
+
+## Evidence
+
+- Pattern in folderStructure.commonFolders: packages
+
+---
+id: angular-cli-instinct-test-location
+trigger: "When adding new tests"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: Asylum4You/angular-cli
+---
+
+# Angular Cli Instinct Test Location
+
+## Action
+
+Place tests in a separate location from source code
+
+## Evidence
+
+- Pattern in folderStructure.testLocation: separate
+
